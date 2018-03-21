@@ -30,7 +30,8 @@ public class Solution {
                 head = secondNode;  
                 secondNode = thirdNode;  
                 thirdNode = secondNode.next;  
-            }  
+            }
+  
             secondNode.next = head;  
             head = secondNode;  
         }  
